@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/* About Me Section Styles */
+section#about {
+    background-color: #8a5be8;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+section#about .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+section#about h2 {
+    font-weight: bold;
+    font-weight:bolder;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+h3{
+    text-align: center;
+}
+
+/* Qualification Section Styles */
+section#qualification {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    
+}
+
+/* Skills Section Styles */
+section#skills {
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+}
+
+
+/* Certifications Section Styles */
+section#certifications {
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+}
+
+/* Projects Section Styles */
+section#projects {
+    background-color: #f2f2f2;
+    padding: 70px;
+}
+
+/* Contact Section Styles */
+section#contact {
+    background-color: #8a5be8;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+section#contact ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color:rgb(224, 175, 175);
+}
+
